@@ -1,5 +1,9 @@
 # AngularQuiz
 
+PROJET RÉALISÉ DANS LE CADRE DE LA FORMATION EFREI AVEC
+- MAHENDAR Steven
+- MANGIN Charles
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.17.
 
 ## Migration History
