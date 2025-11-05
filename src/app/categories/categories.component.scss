@@ -1,0 +1,48 @@
+.categories {
+  @apply flex flex-col items-center p-8;
+
+  &_title {
+    @apply text-2xl font-bold mb-6 text-center;
+  }
+
+  &_form {
+    @apply w-full max-w-md mb-6;
+  }
+
+  &_search {
+    @apply flex flex-col gap-2;
+    
+    label {
+      @apply text-violet-500 font-bold;
+    }
+  }
+
+  &_buttons {
+    @apply flex gap-2 mt-2;
+  }
+
+  &_input {
+    @apply border border-violet-500 px-4 py-2 rounded;
+  }
+
+  &_submit-btn {
+    @apply bg-violet-500 text-white px-4 py-2 rounded mt-2 hover:bg-violet-600;
+  }
+
+  &_reset-btn {
+    @apply bg-gray-500 text-white px-4 py-2 rounded mt-2 hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  &_grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-6xl;
+  }
+
+  &_card {
+    @apply border border-violet-500 rounded-lg p-6 cursor-pointer hover:bg-violet-50 transition-colors;
+  }
+
+  &_card-title {
+    @apply text-xl font-semibold text-center text-violet-700;
+  }
+}
+

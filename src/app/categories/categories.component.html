@@ -1,0 +1,43 @@
+<section class="categories">
+  <h2 class="categories_title">Choisissez une catégorie</h2>
+  
+  <form class="categories_form" #searchForm="ngForm" (ngSubmit)="filterCategories(); $event.preventDefault()">
+    <div class="categories_search">
+      <label for="search">Rechercher une catégorie</label>
+      <input
+        type="text"
+        id="search"
+        name="search"
+        [(ngModel)]="searchTerm"
+        placeholder="Tapez pour rechercher..."
+        class="categories_input"
+      />
+      <div class="categories_buttons">
+        <button
+          type="submit"
+          class="categories_submit-btn"
+        >
+          Valider
+        </button>
+        <button
+          type="button"
+          (click)="resetFilter()"
+          class="categories_reset-btn"
+          [disabled]="!searchTerm"
+        >
+          Réinitialiser
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <div class="categories_grid">
+    <div
+      *ngFor="let category of filteredCategories"
+      class="categories_card"
+      (click)="navigateToQuiz(category.id)"
+    >
+      <h3 class="categories_card-title">{{ category.name }}</h3>
+    </div>
+  </div>
+</section>
