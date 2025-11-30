@@ -138,7 +138,7 @@ import { firstValueFrom } from 'rxjs';
       <ng-container *ngIf="loadError; else loading">
         <div class="min-h-screen bg-neutral-950 text-white flex flex-col items-center justify-center gap-4 px-4 text-center">
           <p class="text-xl">Car not found.</p>
-          <a routerLink="/cars" class="rounded-full bg-amber-500 px-6 py-3 text-neutral-900 font-semibold shadow-lg">Retour à la liste</a>
+          <a routerLink="/cars" class="rounded-full bg-amber-500 px-6 py-3 text-neutral-900 font-semibold shadow-lg">Return to list</a>
         </div>
       </ng-container>
     </ng-template>
