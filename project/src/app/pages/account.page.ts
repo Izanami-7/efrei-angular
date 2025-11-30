@@ -11,7 +11,7 @@ import { UserService } from '../services/user.service';
   imports: [CommonModule, ReactiveFormsModule, RouterLink],
   template: `
     <div class="page mx-auto max-w-3xl space-y-4 bg-neutral-950 px-4 py-6 text-slate-100">
-      <h1 class="text-2xl font-semibold text-white">My accounte</h1>
+      <h1 class="text-2xl font-semibold text-white">My account</h1>
 
       <ng-container *ngIf="user(); else notConnected">
         <div class="grid gap-4 md:grid-cols-2">
