@@ -22,7 +22,9 @@
       "email": "test@test.com",
       "username": "test",
       "password": "test",
-      "favoriteCars": [],
+      "favoriteCars": [
+        "1"
+      ],
       "reservations": [],
       "role": "client",
       "firstName": "test",
