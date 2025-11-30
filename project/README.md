@@ -2,6 +2,43 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
 
+## Prerequisites
+
+- Node.js (version 18 or later is recommended)
+- npm (comes with Node.js)
+
+## Installation
+
+Install dependencies for the Angular frontend and the JSON server backend:
+
+```bash
+npm install
+```
+
+If you already have dependencies installed but want to ensure a clean setup, consider removing the `node_modules` folder and `package-lock.json` before running `npm install`.
+
+## Running the application
+
+The project uses two processes: one for the Angular frontend and one for the JSON server backend. Open two terminal windows or tabs and run the following commands from the project root:
+
+1. **Start the frontend**
+
+   ```bash
+   npm start
+   ```
+
+   The Angular app will start at `http://localhost:4200/` and reload automatically when you edit source files.
+
+2. **Start the backend (JSON server)**
+
+   ```bash
+   npm run json-server
+   ```
+
+   The JSON server will serve API endpoints based on `db.json` (by default at `http://localhost:3000/`).
+
+Make sure both processes stay running to use the application locally.
+
 ## Development server
 
 To start a local development server, run:
