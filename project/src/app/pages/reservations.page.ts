@@ -34,7 +34,7 @@ type ReservationFilters = {
   imports: [CommonModule, ReactiveFormsModule, RouterLink],
   template: `
     <div class="page">
-      <h1>Mes réservations</h1>
+      <h1>My reservations</h1>
       <div *ngIf="reservationIntent as intent" class="intent">
         <p class="intent__title">Préparation de réservation</p>
         <div class="intent__chips">
