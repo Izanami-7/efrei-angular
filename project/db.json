@@ -1,0 +1,258 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@bookingcar.com",
+      "password": "admin123",
+      "role": "admin",
+      "firstName": "Alex",
+      "lastName": "Martin",
+      "phone": "+33 6 11 22 33 44",
+      "createdAt": "2024-01-05T09:15:00.000Z",
+      "favoriteCars": [
+        3,
+        1
+      ],
+      "reservations": [
+        1
+      ]
+    },
+    {
+      "id": "8d1b",
+      "email": "test@test.com",
+      "username": "test",
+      "password": "test",
+      "favoriteCars": [],
+      "reservations": [],
+      "role": "client",
+      "firstName": "test",
+      "lastName": "dzdz",
+      "phone": "zdzdzd",
+      "createdAt": "2025-11-30T00:01:25.086Z"
+    },
+    {
+      "id": "88c1",
+      "email": "julien@julien.fr",
+      "username": "julien",
+      "password": "julien",
+      "favoriteCars": [],
+      "reservations": [
+        "e516"
+      ],
+      "role": "client",
+      "firstName": "julien",
+      "lastName": "",
+      "phone": "",
+      "createdAt": "2025-11-30T00:18:52.708Z"
+    },
+    {
+      "email": "alexandre@alexandre.com",
+      "username": "alexandre²",
+      "password": "alexandre",
+      "favoriteCars": [],
+      "reservations": [
+        "1i-cWNB"
+      ],
+      "role": "client",
+      "firstName": "alexandre²",
+      "lastName": "",
+      "phone": "",
+      "createdAt": "2025-11-30T15:32:13.010Z",
+      "id": "hTo_D6o"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "brand": "Peugeot",
+      "model": "208",
+      "category": "car",
+      "type": "car",
+      "pricePerDay": 45,
+      "seats": 5,
+      "transmission": "manual",
+      "fuel": "petrol",
+      "imageUrl": "https://i.imgur.com/eCGqONF.jpg",
+      "available": true,
+      "color": "red",
+      "releaseYear": 2022,
+      "description": "Agile city car perfect for the city."
+    },
+    {
+      "id": "2",
+      "brand": "Renault",
+      "model": "Clio",
+      "category": "car",
+      "type": "car",
+      "pricePerDay": 42,
+      "seats": 5,
+      "transmission": "automatic",
+      "fuel": "diesel",
+      "imageUrl": "https://i.imgur.com/GaUiHpo.jpg",
+      "available": true,
+      "color": "blue",
+      "releaseYear": 2021,
+      "description": "Compact, versatile, low energy consumption."
+    },
+    {
+      "id": "3",
+      "brand": "Tesla",
+      "model": "Model 3",
+      "category": "car",
+      "type": "car",
+      "pricePerDay": 120,
+      "seats": 5,
+      "transmission": "automatic",
+      "fuel": "electric",
+      "imageUrl": "https://i.imgur.com/F4Qo3eG.jpg",
+      "available": true,
+      "color": "white",
+      "releaseYear": 2023,
+      "description": "Electric sedan with long range."
+    },
+    {
+      "id": "4",
+      "brand": "BMW",
+      "model": "Serie 3",
+      "category": "car",
+      "type": "car",
+      "pricePerDay": 95,
+      "seats": 5,
+      "transmission": "manual",
+      "fuel": "petrol",
+      "imageUrl": "https://i.imgur.com/dvObytf.jpg",
+      "available": false,
+      "color": "black",
+      "releaseYear": 2020,
+      "description": "A comfortable and dynamic premium sedan."
+    },
+    {
+      "id": "5",
+      "brand": "Citroën",
+      "model": "C3",
+      "category": "car",
+      "type": "car",
+      "pricePerDay": 38,
+      "seats": 5,
+      "transmission": "automatic",
+      "fuel": "petrol",
+      "imageUrl": "https://i.imgur.com/PrZtVuQ.jpg",
+      "available": true,
+      "color": "green",
+      "releaseYear": 2019,
+      "description": "Ideal for daily commutes."
+    },
+    {
+      "id": "6",
+      "brand": "Mercedes",
+      "model": "Classe V Mansory",
+      "category": "van",
+      "type": "van",
+      "pricePerDay": 400,
+      "seats": 7,
+      "transmission": "automatic",
+      "fuel": "diesel",
+      "imageUrl": "https://i.imgur.com/XhHy0bx.jpg",
+      "available": true,
+      "color": "black",
+      "releaseYear": 2023,
+      "description": "Luxury van by Mansory with spacious interior and exclusive finishes."
+    },
+    {
+      "id": "7",
+      "brand": "Renault",
+      "model": "Espace",
+      "category": "van",
+      "type": "van",
+      "pricePerDay": 25,
+      "seats": 7,
+      "transmission": "manual",
+      "fuel": "diesel",
+      "imageUrl": "https://i.imgur.com/Y4Liafo.jpg",
+      "available": true,
+      "color": "grey",
+      "releaseYear": 2001,
+      "description": "An iconic minivan, practical for groups and long journeys."
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "userId": 2,
+      "carId": 3,
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-05",
+      "totalPrice": 480,
+      "status": "confirmed"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "carId": 1,
+      "startDate": "2024-11-10",
+      "endDate": "2024-11-12",
+      "totalPrice": 90,
+      "status": "pending"
+    },
+    {
+      "id": "e516",
+      "userId": "88c1",
+      "carId": "6",
+      "startDate": "2025-12-01T01:19",
+      "endDate": "2025-12-15T01:19",
+      "totalPrice": 2940,
+      "status": "pending",
+      "pickUpLocation": "Paris CDG Airport Terminal 2",
+      "dropOffLocation": "Paris Orly Airport",
+      "pricePerDay": 210
+    },
+    {
+      "userId": "hTo_D6o",
+      "carId": "4",
+      "startDate": "2025-11-03T16:32",
+      "endDate": "2025-12-03T16:32",
+      "totalPrice": 2850,
+      "status": "pending",
+      "pickUpLocation": "Paris CDG Airport Terminal 2",
+      "dropOffLocation": "Nice Côte d’Azur Airport",
+      "pricePerDay": 95,
+      "id": "r8JQ-dp"
+    },
+    {
+      "userId": "hTo_D6o",
+      "carId": "2",
+      "startDate": "2025-11-19T16:40",
+      "endDate": "2025-12-06T16:40",
+      "totalPrice": 714,
+      "status": "pending",
+      "pickUpLocation": "Paris CDG Airport Terminal 2",
+      "dropOffLocation": "Marseille Airport",
+      "pricePerDay": 42,
+      "id": "Ji2jO2v"
+    },
+    {
+      "userId": "hTo_D6o",
+      "carId": "1",
+      "startDate": "2025-11-18T16:50",
+      "endDate": "2025-11-29T16:50",
+      "totalPrice": 495,
+      "status": "pending",
+      "pickUpLocation": "Paris CDG Airport Terminal 2",
+      "dropOffLocation": "Paris CDG Airport Terminal 2",
+      "pricePerDay": 45,
+      "id": "1i-cWNB"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "userId": 2,
+      "carId": 3
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "carId": 1
+    }
+  ]
+}
