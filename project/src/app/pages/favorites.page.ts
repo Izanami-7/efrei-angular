@@ -15,7 +15,7 @@ import { CarFilters, CarFiltersComponent } from '../components/car-filters.compo
     <div class="min-h-screen bg-black py-12">
       <div class="mx-auto max-w-6xl space-y-8 px-4 sm:px-6 lg:px-8">
         <header class="space-y-2 text-white">
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-orange-300">Vos favoris</p>
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-orange-300">Your favorites</p>
           <h1 class="text-3xl font-bold sm:text-4xl">My favorite cars</h1>
           <p class="max-w-2xl text-sm text-slate-200">
             Discover your premium selection and continue the Lowcation adventure with the models that inspire you the most.
