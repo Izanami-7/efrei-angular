@@ -111,7 +111,7 @@ import { firstValueFrom } from 'rxjs';
                 class="w-full rounded-xl border border-neutral-200 px-4 py-3 text-base font-semibold text-neutral-800 transition hover:bg-neutral-100"
                 (click)="toggleFavorite()"
               >
-                {{ isFavorite ? 'Retirer des favoris' : 'Add to favoris' }}
+                {{ isFavorite ? 'Remove from favorites' : 'Add to favoris' }}
               </button>
               
               <a
